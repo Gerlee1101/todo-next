@@ -31,7 +31,6 @@ export default function Home() {
               <Input
                 placeholder="Add a new task "
                 value={string}
-                type={string}
                 onChange={onChangeString}
                 className="h-10"
               ></Input>
